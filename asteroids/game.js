@@ -11,7 +11,7 @@
   
   Game.DIM_X = 500;
   Game.DIM_Y = 500;
-  Game.STEP_INTERVAL = 30;
+  Game.STEP_INTERVAL = 20;
   
   Game.prototype.addAsteroids = function(numAsteroids) {
     var asteroids = [];
@@ -97,17 +97,14 @@
   
   Game.prototype.bindKeyHandlers = function(){
     var that = this;
-    key('w', function(){that.ship.power([0,-4])});
-    key('s', function(){that.ship.power([0,4])});
-    key('d', function(){that.ship.power([4,0])});
-    key('a', function(){that.ship.power([-4,0])});
+    key('w', function(){that.ship.power(true)});
+    key('s', function(){that.ship.power(false)});
+    key('d', function(){that.ship.angle += 10});
+    key('a', function(){that.ship.angle -= 10});
     key('space', function(){that.fireBullet(); return false});
   }
   
   Game.prototype.fireBullet = function(pos, vel){
-    if (this.ship.vel[0] === 0 && this.ship.vel[1] === 0) {
-      return;
-    }
     this.bullets.push(this.ship.fireBullet(this));
   }
   

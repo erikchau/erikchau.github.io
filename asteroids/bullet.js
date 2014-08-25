@@ -1,8 +1,8 @@
 (function(root) {
   var Asteroids = root.Asteroids = (root.Asteroids || {});
   
-  var Bullet = Asteroids.Bullet = function(pos, vel, game){
-    Asteroids.MovingObject.call(this, pos, vel, Bullet.RADIUS, 
+  var Bullet = Asteroids.Bullet = function(pos, vel, direction, game){
+    Asteroids.MovingObject.call(this, pos, vel, direction, Bullet.RADIUS, 
       Bullet.COLOR);
       this.game = game
   };
@@ -24,8 +24,8 @@
   };
   
   Bullet.prototype.move = function(){
-    var newX = this.pos[0] + this.vel[0];
-    var newY = this.pos[1] + this.vel[1];
+    var newX = this.pos[0] + (this.direction[0] * this.vel);
+    var newY = this.pos[1] + (this.direction[1] * this.vel);
     this.pos = [newX, newY];
     this.hitAsteroids();
   }
