@@ -1,0 +1,28 @@
+{
+  "name": "erikchau.github.io",
+  "version": "1.0.0",
+  "description": "Gulp automater",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikchau/erikchau.github.io.git"
+  },
+  "keywords": [
+    "erik",
+    "chau"
+  ],
+  "author": "Erik Chau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikchau/erikchau.github.io/issues"
+  },
+  "homepage": "https://github.com/erikchau/erikchau.github.io",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-cli": "^0.3.0",
+    "gulp-connect": "^2.2.0"
+  }
+}
