@@ -1,0 +1,22 @@
+{
+  "name": "erikchau.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio site for erik chau",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikchau/erikchau.github.io.git"
+  },
+  "author": "Erik Chau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikchau/erikchau.github.io/issues"
+  },
+  "homepage": "https://github.com/erikchau/erikchau.github.io",
+  "devDependencies": {
+    "sass": "^0.5.0"
+  }
+}
