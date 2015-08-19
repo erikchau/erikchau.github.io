@@ -17,5 +17,6 @@
   },
   "homepage": "https://github.com/erikchau/erikchau.github.io",
   "devDependencies": {
+    "react-tools": "^0.13.3"
   }
 }

@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'uninstall',
+1 verbose cli   'bootstrap' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose node_modules\bootstrap unbuild
+6 info preuninstall bootstrap@3.3.5
+7 info uninstall bootstrap@3.3.5
+8 verbose true,C:\Users\Chau\Desktop\erikchau.github.io\node_modules,C:\Users\Chau\Desktop\erikchau.github.io\node_modules unbuild bootstrap@3.3.5
+9 info postuninstall bootstrap@3.3.5
+10 error Error: EPERM, unlink 'C:\Users\Chau\Desktop\erikchau.github.io\node_modules\bootstrap\dist\css'
+10 error  { [Error: EPERM, unlink 'C:\Users\Chau\Desktop\erikchau.github.io\node_modules\bootstrap\dist\css']
+10 error   errno: 50,
+10 error   code: 'EPERM',
+10 error   path: 'C:\\Users\\Chau\\Desktop\\erikchau.github.io\\node_modules\\bootstrap\\dist\\css' }
+11 error Please try running this command again as root/Administrator.
+12 error System Windows_NT 6.1.7601
+13 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "uninstall" "bootstrap"
+14 error cwd C:\Users\Chau\Desktop\erikchau.github.io
+15 error node -v v0.10.32
+16 error npm -v 1.4.28
+17 error path C:\Users\Chau\Desktop\erikchau.github.io\node_modules\bootstrap\dist\css
+18 error code EPERM
+19 error errno 50
+20 error stack Error: EPERM, unlink 'C:\Users\Chau\Desktop\erikchau.github.io\node_modules\bootstrap\dist\css'
+21 verbose exit [ 50, true ]
