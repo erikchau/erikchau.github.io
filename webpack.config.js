@@ -15,13 +15,10 @@ const CopyWebpackPluginConfig = new CopyWebpackPlugin(
     }
   ]
 );
-
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CleanWebpackPluginConfig = new CleanWebpackPlugin(
   ["dist"]
 )
-
-
 
 module.exports = {
   entry: './src/index.js',

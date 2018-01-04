@@ -10,9 +10,10 @@ import Contact from "./contact.jsx";
 class Portfolio extends Component {
 
   render() {
+    console.log(this.props)
     return (
       <div>
-        <Nav/>
+        <Nav data={this.props.data.nav}/>
         <Header/>
         <AboutMe/>
         <Experience/>

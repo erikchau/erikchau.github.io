@@ -1,5 +1,10 @@
 {
-  "nav": [],
+  "nav": [
+    {
+      "title": "About Me",
+      "link": "#aboutme"
+    }
+  ],
   "header": {
     "name": "Erik Chau",
     "blurb": "Front End Software Engineer for Hire"
@@ -8,11 +13,17 @@
     "headline": "I am a web developer based in San Francisco with a passion for programming",
     "story": "Graduated from UC Santa Barbara with a degree in Biochemistry in 2012 and worked in the biotechnology field for a year. During both my studies and job I worked heavliy with computers to analyze and manipulate data. I found that I was enjoying the logic in writing scripts to format and display the data I had collected more than I was enjoying doing lab work. This set me on the path to start learning how to code and becomming a web developer."
   },
+  "experience": [
+
+  ],
   "skills": [
     {
       "name": "Node.js",
       "logo": "/static/nodejs.svg"
     }
-  ]
+  ],
+  "contact": {
+
+  }
 
 }
