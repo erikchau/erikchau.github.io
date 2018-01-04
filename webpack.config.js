@@ -6,6 +6,22 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   filename: 'index.html',
   inject: 'body'
 })
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const CopyWebpackPluginConfig = new CopyWebpackPlugin(
+  [
+    {
+      from: './src/static',
+      to: "static"
+    }
+  ]
+);
+
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const CleanWebpackPluginConfig = new CleanWebpackPlugin(
+  ["dist"]
+)
+
+
 
 module.exports = {
   entry: './src/index.js',
@@ -19,5 +35,9 @@ module.exports = {
       { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ }
     ]
   },
-  plugins: [HtmlWebpackPluginConfig]
+  plugins: [
+    HtmlWebpackPluginConfig,
+    CopyWebpackPluginConfig,
+    CleanWebpackPluginConfig
+  ]
 }
