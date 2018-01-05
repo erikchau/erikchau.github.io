@@ -3,18 +3,44 @@
     {
       "title": "About Me",
       "link": "#aboutme"
+    },
+    {
+      "title": "Experience",
+      "link": "#experience"
+    },
+    {
+      "title": "Skills",
+      "link": "#skills"
+    },
+    {
+      "title": "Contact",
+      "link": "#contact"
     }
   ],
   "header": {
     "name": "Erik Chau",
-    "blurb": "Front End Software Engineer for Hire"
+    "blurb": "Software Engineer for Hire"
   },
   "aboutme": {
     "headline": "I am a web developer based in San Francisco with a passion for programming",
     "story": "Graduated from UC Santa Barbara with a degree in Biochemistry in 2012 and worked in the biotechnology field for a year. During both my studies and job I worked heavliy with computers to analyze and manipulate data. I found that I was enjoying the logic in writing scripts to format and display the data I had collected more than I was enjoying doing lab work. This set me on the path to start learning how to code and becomming a web developer."
   },
   "experience": [
-
+    {
+      "company": "TapSense Inc",
+      "role": "Full Stack Engineer",
+      "responsibilities": [
+        "Migrated and revamped entire TapSense website from dated Wordpress CMS to modern Keystone.js framework.",
+        "Restructured site from unstructured collection of pages to an application that uses routes and views.",
+        "Split and refactored 4000+ line css file into component and page specific sheets for easier maintainability and readability.",
+        "Prototyped, planned, and built several applications for TapSense advertising campaign management, ad serving settings, and reporting on the internal dashboard. Applied knowledge of MVC, JavaScript, and HTML and CSS  to write frontend components in Backbone.js framework. Backend components were written in Java and collaborated with other engineers to design API endpoints.",
+        "Implemented monitoring scripts to detect potential problems in infrastructure such as in Python using the AWS API. Notified team via text and email when problems arose and could not be resolved in an automated manner.",
+        "Sped up dashboard page load speeds by several seconds by storing large sets of infrequently changed data on the client side using local storage.",
+        "Used Web Workers to process data sets in the background on the client side without locking up UI.",
+        "Stored large sets of infrequently changed data on the client side via local storage to speed up.",
+        "Replaced classic AWS instance infrastructure with AWS VPC infrastructure and evaluated data transfer between interzone instances to reduce monthly costs by 9TB per month."
+      ]
+    }
   ],
   "skills": [
     {
@@ -23,7 +49,10 @@
     }
   ],
   "contact": {
-
+    "email": "erik.chau@gmail.com",
+    "phone": "(831)-359-0041",
+    "github": "https://www.github.com/erikchau",
+    "linkedin": "https://www.linkedin.com/in/erikchau/"
   }
 
 }
