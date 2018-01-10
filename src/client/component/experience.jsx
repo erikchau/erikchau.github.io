@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class Experience extends Component {
   render() {
-    return <section>
+    return <section id="experience">
       <h2>Experience</h2>
       {this.props.data.map(exp => {
         return (

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class Contact extends Component {
   render() {
-    return <section>
+    return <section id="contact">
       <h2>Contact Me</h2>
       <ul>
         {Object.keys(this.props.data).map(key => {

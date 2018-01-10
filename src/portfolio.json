@@ -46,6 +46,50 @@
     {
       "name": "Node.js",
       "logo": "/static/nodejs.svg"
+    },
+    {
+      "name": "npm",
+      "logo": "/static/npm.svg"
+    },
+    {
+      "name": "JavaScript",
+      "logo": "/static/javascript.svg"
+    },
+    {
+      "name": "React",
+      "logo": "/static/react.svg"
+    },
+    {
+      "name": "Webpack",
+      "logo": "/static/webpack.svg"
+    },
+    {
+      "name": "HTML5",
+      "logo": "/static/html5.svg"
+    },
+    {
+      "name": "CSS3",
+      "logo": "/static/css3.svg"
+    },
+    {
+      "name": "MongoDB",
+      "logo": "/static/mongodb.svg"
+    },
+    {
+      "name": "jQuery",
+      "logo": "/static/jquery.svg"
+    },
+    {
+      "name": "Backbone.js",
+      "logo": "/static/backbonejs.svg"
+    },
+    {
+      "name": "AWS",
+      "logo": "/static/aws.svg"
+    },
+    {
+      "name": "Python",
+      "logo": "/static/python.svg"
     }
   ],
   "contact": {

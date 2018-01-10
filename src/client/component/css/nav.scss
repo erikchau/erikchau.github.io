@@ -1,0 +1,16 @@
+header {
+  position: fixed;
+  width: 100%;
+  h2{
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  li {
+    list-style-type: none;
+    display: inline;
+  }
+}
