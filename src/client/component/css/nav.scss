@@ -1,16 +1,18 @@
-header {
-  position: fixed;
-  width: 100%;
+.nav {
   h2{
     display: none;
   }
-
   ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
   li {
     list-style-type: none;
     display: inline;
+    a {
+      text-decoration: none;
+      color: white;
+    }
   }
 }

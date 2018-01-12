@@ -1,0 +1,10 @@
+.herosection {
+  height: 80vh;
+  position: relative;
+}
+
+.herotext {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

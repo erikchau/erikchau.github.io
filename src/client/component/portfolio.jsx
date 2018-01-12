@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
-import Nav from "./nav.jsx";
 import Header from "./header.jsx";
+import Nav from "./nav.jsx";
 import AboutMe from "./aboutme.jsx";
 import Experience from "./experience.jsx";
 import Skills from "./skills.jsx";
@@ -16,9 +16,9 @@ class Portfolio extends Component {
   render() {
     return (
       [
-        <Nav data={this.props.data.nav} key="nav"/>,
         <main key="main">
-          <Header data={this.props.data.header}/>
+          <Header data={this.props.data.header} nav={this.props.data.nav}/>
+          <Nav data={this.props.data.nav}/>
           <AboutMe data={this.props.data.aboutme}/>
           <Experience data={this.props.data.experience}/>
           <Skills data={this.props.data.skills}/>

@@ -5,8 +5,8 @@ import "./css/nav.scss"
 class Nav extends Component {
   render() {
     return (
-      <header className="row">
-        <nav className="twelve columns">
+      <div className="nav">
+        <nav className="container">
           <h2>Main Navigation</h2>
           <ul>
             {this.props.data.map((section) => {
@@ -16,7 +16,7 @@ class Nav extends Component {
             })}
           </ul>
         </nav>
-      </header>
+      </div>
     )
   }
 }
